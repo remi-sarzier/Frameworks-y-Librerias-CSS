@@ -1,0 +1,22 @@
+﻿.logo{
+width: 200px;
+  
+margin-top: 0.5rem;
+ 
+
+}
+
+#viaje{
+  
+background-image: url(../img/viaje.jpg);
+  
+background-attachment: fixed;
+  
+background-repeat: no-repeat;
+  
+background-position: center center;
+  
+background-size: cover;
+ 
+}
+

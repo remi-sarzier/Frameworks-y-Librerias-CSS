@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/estilos.css"  media="screen,projection"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Blog de Turismo</title>
+    </head>
+    <body>
+      <div class="row blue lighten-2">
+        <nav class="blue lighten-2">
+          <div class="col s12 m3 l3">
+            <a href="#" class="logo">
+              <img src="img/logo.jpg" alt="logo" style="width:250px; height:250px;">
+            </a>
+          </div>
+          <div class="col s12 m9 l9">
+            <div class="right">
+              <ul>
+			    <li><a class="waves-effect waves-light btn">Inicio<i class="material-icons right">home</i></a></li>
+			    <li><a class="waves-effect waves-light btn">Estuve en...<i class="material-icons right">location_on</i></a></li>
+			    <li><a class="waves-effect waves-light btn">Mejores viajes<i class="material-icons right">star</i></a></li>
+			    <li><a class="waves-effect waves-light btn">Recomendaciones<i class="material-icons right">speaker_notes</i></a></li>
+			  </ul>
+			</div>
+		  </div>
+        </nav>
+        <h3>Viajando por el mundo</h3>
+      </div>
+        <div class="row" id="viaje">
+          <div class="col m1 l1 hide-on-small-only">
+            <ul class="social">
+              <li>
+                <a href="http://www.facebook.com" target="_blank">
+                <img src="img/facebook.png" alt="facebook" class="circle" style="height:60px; width:60px;">
+                </a>
+              </li>
+              <li>
+                <a href="http://www.twitter.com" target="_blank">
+                <img src="img/twitter.png" alt="twitter" class="circle" style="height:60px; width:60px;">
+                </a>
+              </li>
+              <li>
+		        <a href="http://www.instagram.com" target="_blank">
+                <img src="img/instagram.png" alt="instagram" class="circle" style="height:60px; width:60px;">
+                </a>
+              </li>
+              <li>
+                <a href="http://www.youtube.com" target="_blank">
+                <img src="img/youtube.png"  alt="youtube" class="circle" style="height:60px; width:60px;">
+                </a>
+              </li>
+              <li>
+		        <a href="http://www.pinterest.com" target="_blank">
+                <img src="img/pinterest.png" alt="pinterest" class="circle" style="height:60px; width:60px;">
+                </a>
+              </li>
+            </ul>
+          </div>
+        <div class="col s12 m11 l11">
+          <div class="col s12 m3 l3">
+            <img class="responsive-img z-depth-4" src="img/machupichu.jpg" alt="machu picchu">
+          </div>
+          <div class="col s12 m5 l5">
+            <img class="responsive-img z-depth-4" src="img/collioure.jpg" alt="collioure">
+          </div>
+          <div class="col s12 m3 l3">
+		    <img class="responsive-img z-depth-4" src="img/New-York.jpg" alt="New york">
+          </div>
+          <div class="col s12 m3 l3">
+		    <img class="responsive-img z-depth-4" src="img/petra.jpg" alt="petra">
+          </div>
+          <div class="col s12 m3 l3">
+		  	<img class="responsive-img z-depth-4" src="img/madrid.jpg" alt="madrid">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m9 l9">
+		    <div class="card-panel">
+		      <div class="s2 m4 l4">
+		        <img class="responsive-img" src="img/perpignan.jpg" alt="perpignan">
+		      </div>
+		      <div class="s10 m8 l8">
+		          <h4>Conociendo Perpiñan</h4>
+		          <div class="chip">
+				    04 de octubre del 2018
+				      <i class="tiny material-icons">date_range</i>
+				  </div>
+				  <div class="chip">
+				    Perpiñan, Francia
+				      <i class="tiny material-icons">location_on</i>
+                  </div>
+		          <p>Siguiendo recorriendo el sur de Francia, nos hemos parado el la hermosa cuidad de <strong>Perpiñan</strong>, fundada en el siglo X, con una fuerte identidad catalana a pesar de ser parte de Francia.<br>
+                  El centro de la ciudad alberga un sin fin de pequeñas calles cuyas lineas los invitan a perderse y encontrarse con lindas plazas con fontanas,tiendas tipicas, bares y restaurantes. Les recomendamos pasear por este hermosa pequeña ciudad que los sorprendera por sus encantos.</p>
+		      </div>
+		    </div>
+          </div>
+          <div class="col s12 m3 l3">
+            <div class="card">
+			  <div class="card-image">
+			    <img class="circle responsive-img" src="img/avatarboy.jpg" alt="avatar">
+			  </div>
+			  <div class="card-content">
+			    <hr>
+			      <h5>Perfil del autor</h5>
+			      <p class="text justify">Soy Rémi, 33 años, amante del viaje y de la aventura, cree este blog para compartir mis experiencias y recomendaciones, durante los viajes que realizaré.</p>
+			  </div>
+            </div>
+          </div>
+          <div class="col s12 m9 l9">
+            <div class="card-panel blue lighten-4 white-text">
+              <h5>Deja tu comentario</h5>
+                <div class="row">
+			      <form>
+			        <div class="col s12">
+			          <div class="row">
+			            <div class="input-field col s6">
+			              <i class="material-icons prefix">perm_identity</i>
+			              <input id="nombre" type="text" class="validate">
+			              <label for="nombre">Nombre y Apellidos</label>
+			            </div>
+			            <div class="input-field col s6">
+			              <i class="material-icons prefix">email</i>
+			              <input id="email" type="email" class="validate">
+			              <label for="email" data-success="Correcto" data-error="Debes completar este campo">E-mail</label>
+			            </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <i class="material-icons prefix">comment</i>
+                          <textarea id="comentarios" class="materialize-textarea"></textarea>
+                          <label for="comentarios">Commentarios</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="right">
+                          <a class="waves-effect waves-light btn">Enviar</a>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+		      <div class="col s12 m9 l9">
+		        <div class="card-panel">
+			      <div class="s2 m4 l4">
+				    <img class="responsive-img" src="img/dubrovnik.jpg" alt="dubrovnik">
+			      </div>
+		          <div class="s10 m8 l8">
+				    <h4>Conociendo Dubrovnik</h4>
+				      <div class="chip">
+				        30 de Septiembre del 2018
+				        <i class="tiny material-icons">date_range</i>
+				      </div>
+				      <div class="chip">
+				        Dubrovnik, Croacia
+					    <i class="tiny material-icons">location_on</i>
+		              </div>
+				      <p>Nos fuimos a conocer la bellisima ciudad de <strong>Dubrovnik</strong>,en Croacia, capital de la región de Dalmacia. Es la última ciudad croata al sur del país, cuyo centro histórico esta rodeado de fortificaciones. Sus lindas calles y edificios de piedras calizas, le dan un color blanco maravilloso.<br>
+		              Dejense perder en este labirento que le encantaran por seguro.<br>
+		              Dato curioso: En esta ciudad se grabaron algunos episodios de la famosa serie Game Of Thrones! si usted es fanatico de esta serie, no dude en tomar uno de los multiples tour de la ciudad que ofrecen en la entrada.</p>
+			      </div>
+		        </div>
+		      </div>
+            </div>
+            <div class="col s12 m9 l9">
+		      <div class="card-panel blue lighten-4 white-text">
+		        <h5>Deja tu comentario</h5>
+		          <div class="row">
+			        <form>
+				      <div class="col s12">
+					    <div class="row">
+					      <div class="input-field col s6">
+					        <i class="material-icons prefix">perm_identity</i>
+					        <input id="nombre" type="text" class="validate">
+					        <label for="nombre">Nombre y Apellidos</label>
+					      </div>
+					      <div class="input-field col s6">
+					        <i class="material-icons prefix">email</i>
+					        <input id="email" type="email" class="validate">
+					        <label for="email" data-success="Correcto" data-error="Debes completar este campo">E-mail</label>
+					      </div>
+		                </div>
+		                <div class="row">
+		                  <div class="input-field col s12">
+		                    <i class="material-icons prefix">comment</i>
+		                    <textarea id="comentarios" class="materialize-textarea"></textarea>
+		                    <label for="comentarios">Commentarios</label>
+		                </div>
+		              </div>
+		              <div class="row">
+		                <div class="right">
+		                  <a class="waves-effect waves-light btn">Enviar</a>
+		                </div>
+		              </div>
+		             </div>
+		           </form>
+		         </div>
+		       </div>
+             </div>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+  </html>

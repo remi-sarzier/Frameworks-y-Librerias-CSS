@@ -1,0 +1,36 @@
+#cocina{
+  
+background-image: url(../img/cocina.jpg);
+  
+background-attachment: fixed;
+  
+background-repeat: no-repeat;
+  
+background-position: center center;
+  
+background-size: cover;
+  
+
+}
+
+#general {
+background: rgba(234, 135, 255, 0.4);
+}
+
+#content {
+background: rgba(237, 216, 244, 0.6);
+}
+
+#comment { 
+background: rgba(237, 216, 244, 0.6);
+}
+
+#izquierda {
+background-color: rgb(237, 178, 244);
+}
+
+hr.vertical
+{
+   width: 0px;
+   height: 100%;
+}

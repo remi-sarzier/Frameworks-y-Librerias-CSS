@@ -1,0 +1,23 @@
+
+.logo-img {
+  width: 350px;
+}
+
+.header {
+position: relative;
+}
+
+.iconos{
+position: absolute;
+bottom: 5px;
+right: 10px;
+}
+
+.imagen1{
+position: relative;
+}
+
+@media (min-width: 768px)
+.logo.img {
+width:100%;
+}
